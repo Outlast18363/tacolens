@@ -81,6 +81,13 @@ macOS notes:
 
 ## Troubleshooting
 
+### Windows quick fixes
+
+- `npm` is not recognized: restart the terminal or editor after installing Node.js.
+- PowerShell blocks `npm`: use `npm.cmd` instead.
+- `Allow localhost loopback` fails with access denied: run `npm.cmd run start` once in an Administrator terminal.
+- The add-in opens but buttons do nothing: make sure `docker compose up --build` is still running.
+
 ### The add-in opens, but clicking graph buttons does nothing
 
 This usually means the backend server is not running.
